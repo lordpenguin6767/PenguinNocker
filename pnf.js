@@ -100,7 +100,7 @@ function loadPage(page) {
        `,
     g: `
         <div class="games">
-          <img src="https://raw.githubusercontent.com/lordpenguin6767/PenguinNocker/refs/heads/main/lordpenguin_inc_logo.png">
+          <img src="lordpenguin_inc_logo.png">
           <h1 class="title">🐧<span class="words">Penguin Games&trade;</span>🐧</h1>
           <div class="descs">
             <p>Copyright &copy; LordPenguin Inc. 2026</p>
