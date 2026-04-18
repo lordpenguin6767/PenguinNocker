@@ -206,3 +206,5 @@ function toggleFullscreen() {
     document.exitFullscreen();
   }
 }
+
+loadPage("h");
