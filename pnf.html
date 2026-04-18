@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Penguin Nocker Website</title>
-	<link rel="stylesheet" href="pnf.css">
 </head>
 <body>
 
@@ -22,16 +21,21 @@
 
 	<div class="resizer" id="resizer"></div>
 
-<button id="fullscreenBtn"
+	<button id="backBtn"
+        onclick="loadPage('g')"
+        style="position:fixed; top:-20px; left:250px; z-index:999; padding:10px 16px; cursor:pointer; display:none;">
+    ⬅
+	</button>
+
+	<button id="fullscreenBtn"
         onclick="toggleFullscreen()"
-        style="position:fixed; top:10px; right:10px; z-index:999; padding:10px 16px; cursor:pointer; display:none;">
+        style="position:fixed; top:-20px; right:0px; z-index:999; padding:10px 16px; cursor:pointer; display:none;">
 		&#x26F6;
-</button>
+	</button>
 
 	<!-- Page Content -->
 	<div class="content" id="content">
-		<!-- Load content via js -->
+		<!-- Load Content via js -->
 	</div>
-	<script src="pnf.js"></script>
 </body>
 </html>
