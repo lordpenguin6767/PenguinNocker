@@ -100,7 +100,7 @@ function loadPage(page) {
        `,
     g: `
         <div class="games">
-          <img src="lordpenguin_inc_logo.png">
+          <img src="https://raw.githubusercontent.com/lordpenguin6767/PenguinNocker/refs/heads/main/lordpenguin_inc_logo.png">
           <h1 class="title">🐧<span class="words">Penguin Games&trade;</span>🐧</h1>
           <div class="descs">
             <p>Copyright &copy; LordPenguin Inc. 2026</p>
@@ -109,19 +109,17 @@ function loadPage(page) {
             <p>We've Made games work anywhere since 2025</p>
           </div>
           <div class="use">
-            <p>If you don't know how to use these, just download the file, open it,</p>
-            <p>and it should run in your downloads.</p>
+            <p>If you don't know how to use these, this time just click the link.</p>
             <p>THIS IS A COMPLETELY COOL PENGUIN DOC THAT IS COOL</p>
           </div>
           <div class="count">
-            <p>GAME COUNT: 1,921</p>
-            <p>MOVIE/TV COUNT: 163</p>
+            <p>GAME COUNT: ???</p>
+            <p>MOVIE/TV COUNT: ???</p>
           </div>
           <div class="disc">
             <p>All games go to their respective owners and we do not claim them.</p>
-            <p>If a game doesnt work please tell a editor so they can fix the problem.</p>
-            <p>Disclaimer: If you have no wifi you cant download files, but you can play files already downloaded.</p>
-            <p>Disclaimer 2: You sometimes can't download games when securly is on.</p>
+            <p>If a game doesnt work please tell Jackson so he can fix the problem.</p>
+            <p>Disclaimer: I'm sure there is at least 1 disclaimer?</p>
             <div>
               <span class="b">Game site</span>
               <span>has penguins</span>
@@ -134,7 +132,80 @@ function loadPage(page) {
             <p>0-9</p>
             <hr>
             <div class="links">
-              <p>1: <a onclick="loadFile('cl1')">cl1.html</a></p>
+              <p>1: <a onclick="loadFile('one')">pn1.html</a></p>
+              <p>10 Minutes Till Dawn: <a onclick="loadFile('tenmin')">pn10minutestilldawn.html</a></p>
+              <p>2048: <a onclick="loadFile('twothousand')">pn2048.html</a></p>
+              <p>2-3-4 Player Games: <a onclick="loadFile('twoplayer')">pn234playergame.html</a></p>
+              <p>9007199254740992: <a onclick="loadFile('ninequad')">pnbig2048.html</a></p>
+            </div>
+            <hr>
+            <p>A</p>
+            <hr>
+            <div class="links">
+              <p>A Day in the Office: <a onclick="loadFile('officeday')">pnadayintheoffice.html</a></p>
+              <p>AdVenture Capitalist: <a onclick="loadFile('advcapital')">pnadventurecapiltalist.html</a></p>
+              <p>Ages of Conflict: <a onclick="loadFile('aconflict')">pnagesofconflict.html</a></p>
+              <p>Airline Typcoon Idle: <a onclick="loadFile('airtyc')">pnairlinetycoonidle.html</a></p>
+              <p>Alien Sky Invasion: <a onclick="loadFile('alieninv')">pnalienskyinvasion.html</a></p>
+              <p>Amazing Strang Rope Police: <a onclick="loadFile('asrp')">pnasrp.html</a></p>
+              <p>Admist the Sky: <a onclick="loadFile('insky')">pnadmistthesky.hmtl</a></p>
+              <p>Angry Bird: <a onclick="loadFile('angrybird')">pnangrybird.html</a></p>
+              <p>Apes vs. Helium: <a onclick="loadFile('apevhe')">pnapesvshelium.html</a></p>
+              <p>Arcade Volley: <a onclick="loadFile('arcvolley')">pnarcadevolley.html</a></p>
+              <p>Archesspelago: <a onclick="loadFile('arcsplg')">pnarchesspelago.html</a></p>
+              <p>Astro Survivors: <a onclick="loadFile('astrosurv')">pnastrosurvivors.html</a></p>
+              <p>Aviamaster: <a onclick="loadFile('amaster')">pnaviamaster.html</a></p>
+            </div>
+            <hr>
+            <p>B</p>
+            <hr>
+            <div class="links">
+              <p>Babel Tower: <a onclick="loadFile('babel')">pnbabeltower.html</a></p>
+              <p>Backrooms 2D: <a onclick="loadFile('backtwo')">pnbackrooms2d.html</a></p>
+              <p>Bacon May Die: <a onclick="loadFile('bacon')">pnbaconmaydie.html</a></p>
+              <p>Bad Parenting: <a onclick="loadFile('badparent')">pnbadparenting.html</a></p>
+              <p>Baldi's Basics The Ultra Decompile: <a onclick="loadFile('pnbaldidecomp')">baldidecomp.html</a></p>
+              <p>Baldi's Basics: <a onclick="loadFile('baldi')">pnbaldisbasics.html</a></p>
+              <p>Ballistic: <a onclick="loadFile('ballistic')">pnballistic.html</a></p>
+              <p>Banana Poker: <a onclick="loadFile('bpoker')">pnbananapoker.html</a></p>
+              <p>Barry Has a Secret: <a onclick="loadFile('barrysecret')">pnbarryhassecret.html</a></p>
+              <p>Baseball Bros: <a onclick="loadFile('baseb')">pnbaseballbros.html</a></p>
+              <p>Basketball Stars: <a onclick="loadFile('bballs')">pnbasketstars.html</a></p>
+              <p>Basketball Super Stars: <a onclick="loadFile('bballss')">pnbasketsuperstars.html</a></p>
+              <p>Beach Boxing Simulator: <a onclick="loadFile('bboxsim')">pnbeachboxingsim.html</a></p>
+              <p>Bearsus: <a onclick="loadFile('bearsus')">pnbearsus.html</a></p>
+              <p>Baldi's Fun New School Plus Ultimate Edition: <a onclick="loadFile('bfnsu')">pnbfnsu.html</a></p>
+              <p>Big Flappy Tower: <a onclick="loadFile('bft')">pnbigflappytower.html</a></p>
+              <p>Block Miner: <a onclick="loadFile('mineblock')">pnblockminer.html</a></p>
+              <p>Blockpost: <a onclick="loadFile('blockpost')">pnblockpost.html</a></p>
+              <p>Blumji Racers: <a onclick="loadFile('blumrace')">pnblumjiracers.html</a></p>
+              <p>Blumji Rocket: <a onclick="loadFile('blumrkt')">pnblumjirocket.html</a></p>
+              <p>Bounce Back: <a onclick="loadFile('bounceback')">pnbouncebacl.html</a></p>
+              <p>Bouncy Basketball: <a onclick="loadFile('bbball')">pnbouncybasketball.html</a></p>
+              <p>Bouncy Motors: <a onclick="loadFile('bmotors')">pnbouncymotors.html</a></p>
+              <p>Bounty of One: <a onclick="loadFile('bountyone')">pnbountyofone.html</a></p>
+              <p>Brawl 3D: <a onclick="loadFile('brawlthree')">pnbrawl3d.hmtl</a></p>
+              <p>Bullet Force Multiplayer: <a onclick="loadFile('bfmulti')">pnbulletforcemultiplayer.html</a></p>
+            </div>
+            <hr>
+            <p>C</p>
+            <hr>
+            <div class="links">
+              <p>Canvas: <a onclick="loadFile('canvas')">pncanvas.html</a></p>
+              <p>Capybara Clicker: <a onclick="loadFile('cbclick')">pncapybaraclicker.html</a></p>
+              <p>Cat Mario: <a onclick="loadFile('catmario')">pncatmario.html</a></p>
+              <p>Cat's Love Cake 2: <a onclick="loadFile('catcaketwo')">pncatslovecake2.html</a></p>
+              <p>Cave Chaos: <a onclick="loadFile('cavechaos')">pncavechaos.html</a></p>
+              <p>Cheese Chompers 3: <a onclick="loadFile('ccthree')">pncheesechompers3.html</a></p>
+              <p>Chicken Gun: <a onclick="loadFile('chickg')">pnchickengun.html</a></p>
+              <p>Choppy Orc: <a onclick="loadFile('chopo')">pnchoppyorc.html</a></p>
+              <p>CircloO 2: <a onclick="loadFile('circlootwo')">pncircloO2.html</a></p>
+              <p>Clash of vikings: <a onclick="loadFile('clashv')">pnclashofvikings.html</a></p>
+              <p>Cookie Clicker: <a onclick="loadFile('cc')">pncookieclicker.html</a></p>
+              <p>Crazy Cars: <a onclick="loadFile('ccars')">pncrazycars.html</a></p>
+              <p>Crazy Chicken 3D: <a onclick="loadFile('cchickthree')">pncrazychicken3d.html</a></p>
+              <p>Creature Card Idle: <a onclick="loadFile('cci')">pncreaturecardidle.html</a></p>
+              <P>CSGO Surf: <a onclick="loadFile('csgos')">pncsgocurf.html</a></p>
             </div>
           </div>
         </div>
@@ -153,6 +224,8 @@ function loadPage(page) {
 
   content.innerHTML = pages[page];
 
+  content.style.backgroundColor = "white";
+
   currentPage.style.backgroundColor = null;
 
   currentPage = document.getElementById(page);
@@ -160,20 +233,340 @@ function loadPage(page) {
   currentPage.style.backgroundColor = "#D3E3FD";
 
   document.getElementById("fullscreenBtn").style.display = "none";
+
+  document.getElementById("backBtn").style.display = "none";
 }
 
 function loadFile(file) {
   const files = {
-    cl1: `
-      <iframe id="fileFrame" src="https://rawcdn.githack.com/Nailington/3kh0-assets/aeb371b7e88542fd5e61eeed9e967a446d84fe1b/1/index.html"
-        style="width:100%; height:90vh; border:none;">
+    one: `
+      <iframe id="f" 
+        src="https://rawcdn.githack.com/Nailington/3kh0-assets/aeb371b7e88542fd5e61eeed9e967a446d84fe1b/1/index.html">
+      </iframe>
+    `,
+    tenmin: `
+      <iframe id="f" 
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/10minutestilldawn/index.html">
+      </iframe>
+    `,
+    twoplayer: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/2-3-4-player-game/index.html">
+      </iframe>
+    `,
+    twothousand: `
+      <iframe id="fileFrame"
+        src="https://rawcdn.githack.com/gabrielecirulli/2048/master/index.html">
+      </iframe>
+    `,
+    twodoom: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/2doom/index.html">
+      </iframe>
+    `,
+    officeday: `
+      <iframe id="f"
+       src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/a%20day%20in%20the%20office/index.html">
+      </iframe>
+    `,
+    advcapital: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/adventure-capitalist/index.html">
+      </iframe>
+    `,
+    aconflict: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/ages%20of%20conflict/index.html">
+      </iframe>
+    `,
+    airtyc: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/airline-tycoon-idle/index.html">
+      </iframe>
+    `,
+    alieninv: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/alien%20sky%20invasion/index.html">
+      </iframe>
+    `,
+    asrp: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/amazing-strange-rope-police-vice-spider/index.html">
+      </iframe>
+    `,
+    insky: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/amidst%20the%20sky/index.html">
+      </iframe>
+    `,
+    angrybird: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/angry-bird/index.html">
+      </iframe>
+    `,
+    apevhe: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/apesvshelium/index.html">
+      </iframe>
+    `,
+    arcvolley: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/arcade-volley/index.html">
+      </iframe>
+    `,
+    arcsplg: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/archesspalago/index.html">
+      </iframe>
+    `,
+    astrosurv: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/astro%20survivors/index.html">
+      </iframe>
+    `,
+    amaster: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/aviamaster/FUN.html">
+      </iframe>
+    `,
+
+    babel: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/babel%20tower/index.html">
+      </iframe>
+    `,
+    backtwo: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/backrooms%202D/index.html">
+      </iframe>
+    `,
+    bacon: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/bacon%20may%20die/index.html">
+      </iframe>
+    `,
+    badparent: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/bad-parenting/index.html">
+      </iframe>
+    `,
+    baldidecomp: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/baldi%20decomp/index.html">
+      </iframe>
+    `,
+    baldi: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/baldis-basics/index.html">
+      </iframe>
+    `,
+    ballistic: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/ballistic/index.html">
+      </iframe>
+    `,
+    bpoker: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/banana%20poker/game.html">
+      </iframe>
+    `,
+    barrysecret: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/barry%20has%20a%20secret/index.html">
+      </iframe>
+    `,
+    baseb: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/baseball%20bros/index.html">
+      </iframe>
+    `,
+    bballs: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/basket%20stars/index.html">
+      </iframe>
+    `,
+    bballss: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/basketball-superstars/index.html">
+      </iframe>
+    `,
+    bboxsim: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/beach-boxing-sim/index.html">
+      </iframe>
+    `,
+    bearsus: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/bearsus/index.html">
+      </iframe>
+    `,
+    bfnsu: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/bfnsu/index.html">
+      </iframe>
+    `,
+    ninequad: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/big%202048/index.html">
+      </iframe>
+    `,
+    bft: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/big%20flappy%20tower/index.html">
+      </iframe>
+    `,
+    mineblock: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/block-miner/index.html">
+      </iframe>
+    `,
+    blockpost: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/blockpost/clblockpost.html">
+      </iframe>
+    `,
+    blumrace: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/blumgi%20racers/index.html">
+      </iframe>
+    `,
+    blumrkt: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/blumgi-rocket/index.html">
+      </iframe>
+    `,
+    bounceback: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/bounce%20back/index.html">
+      </iframe>
+    `,
+    bbball: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/bouncy%20basketball/index.html">
+      </iframe>
+    `,
+    bmotors: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/bouncy%20motors/index.html">
+      </iframe>
+    `,
+    bountyone: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/bounty%20of%20one/index.html">
+      </iframe>
+    `,
+    brawlthree: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/brawl-3d/index.html">
+      </iframe>
+    `,
+    bfmulti: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/bullet-force-multiplayer/index.html">
+      </iframe>
+    `,
+    canvas: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/canvas/index.html">
+      </iframe>
+    `,
+    cbclick: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/capybara%20clicker/index.html">
+      </iframe>
+    `,
+    catmario: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/cat%20mario/index.html">
+      </iframe>
+    `,
+    catcaketwo: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/cats%20love%20cake%202/index.html">
+      </iframe>
+    `,
+    cavechaos: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/cave%20chaos%202/index.html">
+      </iframe>
+    `,
+    ccthree: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/cheese%20chompers%203/index.html">
+      </iframe>
+    `,
+    chickg: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/chicken-gun/index.html">
+      </iframe>
+    `,
+    chopo: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/choppy%20orc/coffee.html">
+      </iframe>
+    `,
+    circlootwo: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/circlo02/index.html">
+      </iframe>
+    `,
+    clashv: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/clashofvikings/index.html">
+      </iframe>
+    `,
+    cc: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/cookieclicker/index.html">
+      </iframe>
+    `,
+    ccars: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/crazy%20cars/index.html#topvaz">
+      </iframe>
+    `,
+    cchickthree: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/crazy%20chicken%203D/index.html">
+      </iframe>
+    `,
+    cci: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/creature-card-idle/index.html">
+      </iframe>
+    `,
+    csgos: `
+      <iframe id="f"
+        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/csgo%20surf/index.html">
       </iframe>
     `
   };
 
+  content.style.backgroundColor = "black";
+
+  if (!files[file]) {
+    content.innerHTML = `
+      <div style="
+        padding:20px;
+        color:#ff4444;
+        font-size:20px;
+        font-weight:bold;
+      ">
+        &#x26A0; Error: Could not find file "<span style="color:white">${file}.html</span>".
+      </div>
+    `;
+    return;
+  }
+
+  console.log(`Loading file ${file}.html`);
+
   content.innerHTML = files[file];
 
   document.getElementById("fullscreenBtn").style.display = "block";
+
+  document.getElementById("backBtn").style.display = "block";
+
+  if (content.value = undefined) ;
 }
 
 
@@ -196,7 +589,7 @@ toggleBtn.addEventListener("click", () => {
 
 /* Fullscreen Logic */
 function toggleFullscreen() {
-  const frame = document.getElementById("fileFrame");
+  const frame = document.getElementById("f");
 
   if (!frame) return;
 
