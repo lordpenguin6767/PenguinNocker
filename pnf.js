@@ -1,4 +1,8 @@
 const content = document.getElementById("content");
+const sidebar = document.getElementById("sidebar");
+const toggleBtn = document.getElementById("toggleBtn");
+const backBtn = document.getElementById("backBtn");
+const fullBtn = document.getElementById("fullscreenBtn");
 
 let currentPage = document.getElementById("h");
 
@@ -232,9 +236,9 @@ function loadPage(page) {
 
   currentPage.style.backgroundColor = "#D3E3FD";
 
-  document.getElementById("fullscreenBtn").style.display = "none";
+  fullBtn.style.display = "none";
 
-  document.getElementById("backBtn").style.display = "none";
+  backBtn.style.display = "none";
 }
 
 function loadFile(file) {
@@ -562,17 +566,12 @@ function loadFile(file) {
 
   content.innerHTML = files[file];
 
-  document.getElementById("fullscreenBtn").style.display = "block";
+  fullBtn.style.display = "block";
 
-  document.getElementById("backBtn").style.display = "block";
+  backBtn.style.display = "block";
 
   if (content.value = undefined) ;
 }
-
-
-/* Collapse button logic */
-const sidebar = document.getElementById("sidebar");
-const toggleBtn = document.getElementById("toggleBtn");
 
 toggleBtn.addEventListener("click", () => {
   collapseToggle = 1 - collapseToggle;
@@ -582,8 +581,10 @@ toggleBtn.addEventListener("click", () => {
   if (collapseToggle == 0) {
     currentPage.style.backgroundColor = "#D3E3FD";
     content.style.marginLeft = "240px";
+    backBtn.style.left = "250px";
   } else {
-    content.style.marginLeft = "60px"
+    content.style.marginLeft = "60px";
+    backBtn.style.left = "70px";
   }
 });
 
