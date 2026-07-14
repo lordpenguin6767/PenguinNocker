@@ -242,307 +242,66 @@ function loadPage(page) {
 
 function loadFile(file) {
   const files = {
-    one: `
-      <iframe id="f" 
-        src="https://rawcdn.githack.com/Nailington/3kh0-assets/aeb371b7e88542fd5e61eeed9e967a446d84fe1b/1/index.html">
-      </iframe>
-    `,
-    tenmin: `
-      <iframe id="f" 
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/10minutestilldawn/index.html">
-      </iframe>
-    `,
-    twoplayer: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/2-3-4-player-game/index.html">
-      </iframe>
-    `,
-    twothousand: `
-      <iframe id="fileFrame"
-        src="https://rawcdn.githack.com/gabrielecirulli/2048/master/index.html">
-      </iframe>
-    `,
-    twodoom: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/2doom/index.html">
-      </iframe>
-    `,
-    officeday: `
-      <iframe id="f"
-       src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/a%20day%20in%20the%20office/index.html">
-      </iframe>
-    `,
-    advcapital: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/adventure-capitalist/index.html">
-      </iframe>
-    `,
-    aconflict: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/ages%20of%20conflict/index.html">
-      </iframe>
-    `,
-    airtyc: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/airline-tycoon-idle/index.html">
-      </iframe>
-    `,
-    alieninv: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/alien%20sky%20invasion/index.html">
-      </iframe>
-    `,
-    asrp: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/amazing-strange-rope-police-vice-spider/index.html">
-      </iframe>
-    `,
-    insky: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/amidst%20the%20sky/index.html">
-      </iframe>
-    `,
-    angrybird: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/angry-bird/index.html">
-      </iframe>
-    `,
-    apevhe: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/apesvshelium/index.html">
-      </iframe>
-    `,
-    arcvolley: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/arcade-volley/index.html">
-      </iframe>
-    `,
-    arcsplg: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/archesspalago/index.html">
-      </iframe>
-    `,
-    astrosurv: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/astro%20survivors/index.html">
-      </iframe>
-    `,
-    amaster: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/aviamaster/FUN.html">
-      </iframe>
-    `,
-
-    babel: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/babel%20tower/index.html">
-      </iframe>
-    `,
-    backtwo: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/backrooms%202D/index.html">
-      </iframe>
-    `,
-    bacon: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/bacon%20may%20die/index.html">
-      </iframe>
-    `,
-    badparent: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/bad-parenting/index.html">
-      </iframe>
-    `,
-    baldidecomp: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/baldi%20decomp/index.html">
-      </iframe>
-    `,
-    baldi: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/baldis-basics/index.html">
-      </iframe>
-    `,
-    ballistic: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/ballistic/index.html">
-      </iframe>
-    `,
-    bpoker: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/banana%20poker/game.html">
-      </iframe>
-    `,
-    barrysecret: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/barry%20has%20a%20secret/index.html">
-      </iframe>
-    `,
-    baseb: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/baseball%20bros/index.html">
-      </iframe>
-    `,
-    bballs: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/basket%20stars/index.html">
-      </iframe>
-    `,
-    bballss: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/basketball-superstars/index.html">
-      </iframe>
-    `,
-    bboxsim: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/beach-boxing-sim/index.html">
-      </iframe>
-    `,
-    bearsus: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/bearsus/index.html">
-      </iframe>
-    `,
-    bfnsu: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/bfnsu/index.html">
-      </iframe>
-    `,
-    ninequad: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/big%202048/index.html">
-      </iframe>
-    `,
-    bft: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/big%20flappy%20tower/index.html">
-      </iframe>
-    `,
-    mineblock: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/block-miner/index.html">
-      </iframe>
-    `,
-    blockpost: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/blockpost/clblockpost.html">
-      </iframe>
-    `,
-    blumrace: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/blumgi%20racers/index.html">
-      </iframe>
-    `,
-    blumrkt: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/blumgi-rocket/index.html">
-      </iframe>
-    `,
-    bounceback: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/bounce%20back/index.html">
-      </iframe>
-    `,
-    bbball: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/bouncy%20basketball/index.html">
-      </iframe>
-    `,
-    bmotors: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/bouncy%20motors/index.html">
-      </iframe>
-    `,
-    bountyone: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/bounty%20of%20one/index.html">
-      </iframe>
-    `,
-    brawlthree: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/brawl-3d/index.html">
-      </iframe>
-    `,
-    bfmulti: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/bullet-force-multiplayer/index.html">
-      </iframe>
-    `,
-    canvas: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/canvas/index.html">
-      </iframe>
-    `,
-    cbclick: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/capybara%20clicker/index.html">
-      </iframe>
-    `,
-    catmario: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/cat%20mario/index.html">
-      </iframe>
-    `,
-    catcaketwo: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/cats%20love%20cake%202/index.html">
-      </iframe>
-    `,
-    cavechaos: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/cave%20chaos%202/index.html">
-      </iframe>
-    `,
-    ccthree: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/cheese%20chompers%203/index.html">
-      </iframe>
-    `,
-    chickg: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/chicken-gun/index.html">
-      </iframe>
-    `,
-    chopo: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/choppy%20orc/coffee.html">
-      </iframe>
-    `,
-    circlootwo: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/circlo02/index.html">
-      </iframe>
-    `,
-    clashv: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/clashofvikings/index.html">
-      </iframe>
-    `,
-    cc: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/cookieclicker/index.html">
-      </iframe>
-    `,
-    ccars: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/crazy%20cars/index.html#topvaz">
-      </iframe>
-    `,
-    cchickthree: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/crazy%20chicken%203D/index.html">
-      </iframe>
-    `,
-    cci: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/creature-card-idle/index.html">
-      </iframe>
-    `,
-    csgos: `
-      <iframe id="f"
-        src="https://rawcdn.githack.com/bubbls/UGS-Assets/main/csgo%20surf/index.html">
-      </iframe>
-    `
+    one: "https://rawcdn.githack.com/Nailington/3kh0-assets/aeb371b7e88542fd5e61eeed9e967a446d84fe1b/1/index.html",
+    tenmin: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/10minutestilldawn/index.html",
+    twoplayer: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/2-3-4-player-game/index.html",
+    twothousand: "https://rawcdn.githack.com/gabrielecirulli/2048/master/index.html",
+    twodoom: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/2doom/index.html",
+    officeday: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/a%20day%20in%20the%20office/index.html",
+    advcapital: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/adventure-capitalist/index.html",
+    aconflict: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/ages%20of%20conflict/index.html",
+    airtyc: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/airline-tycoon-idle/index.html",
+    alieninv: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/alien%20sky%20invasion/index.html",
+    asrp: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/amazing-strange-rope-police-vice-spider/index.html",
+    insky: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/amidst%20the%20sky/index.html",
+    angrybird: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/angry-bird/index.html",
+    apevhe: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/apesvshelium/index.html",
+    arcvolley: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/arcade-volley/index.html",
+    arcsplg: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/archesspalago/index.html",
+    astrosurv: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/astro%20survivors/index.html",
+    amaster: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/aviamaster/FUN.html",
+    babel: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/babel%20tower/index.html",
+    backtwo: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/backrooms%202D/index.html",
+    bacon: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/bacon%20may%20die/index.html",
+    badparent: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/bad-parenting/index.html",
+    baldidecomp: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/baldi%20decomp/index.html",
+    baldi: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/baldis-basics/index.html",
+    ballistic: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/ballistic/index.html",
+    bpoker: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/banana%20poker/game.html",
+    barrysecret: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/barry%20has%20a%20secret/index.html",
+    baseb: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/baseball%20bros/index.html",
+    bballs: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/basket%20stars/index.html",
+    bballss: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/basketball-superstars/index.html",
+    bboxsim: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/beach-boxing-sim/index.html",
+    bearsus: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/bearsus/index.html",
+    bfnsu: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/bfnsu/index.html",
+    ninequad: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/big%202048/index.html",
+    bft: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/big%20flappy%20tower/index.html",
+    mineblock: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/block-miner/index.html",
+    blockpost: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/blockpost/clblockpost.html",
+    blumrace: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/blumgi%20racers/index.html",
+    blumrkt: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/blumgi-rocket/index.html",
+    bounceback: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/bounce%20back/index.html",
+    bbball: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/bouncy%20basketball/index.html",
+    bmotors: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/bouncy%20motors/index.html",
+    bountyone: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/bounty%20of%20one/index.html",
+    brawlthree: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/brawl-3d/index.html",
+    bfmulti: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/bullet-force-multiplayer/index.html",
+    canvas: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/canvas/index.html",
+    cbclick: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/capybara%20clicker/index.html",
+    catmario: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/cat%20mario/index.html",
+    catcaketwo: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/cats%20love%20cake%202/index.html",
+    cavechaos: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/cave%20chaos%202/index.html",
+    ccthree: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/cheese%20chompers%203/index.html",
+    chickg: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/chicken-gun/index.html",
+    chopo: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/choppy%20orc/coffee.html",
+    circlootwo: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/circlo02/index.html",
+    clashv: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/clashofvikings/index.html",
+    cc: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/cookieclicker/index.html",
+    ccars: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/crazy%20cars/index.html#topvaz",
+    cchickthree: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/crazy%20chicken%203D/index.html",
+    cci: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/creature-card-idle/index.html",
+    csgos: "https://rawcdn.githack.com/bubbls/UGS-Assets/main/csgo%20surf/index.html"
   };
 
   content.style.backgroundColor = "black";
@@ -556,14 +315,16 @@ function loadFile(file) {
         font-weight:bold;
       ">
         &#x26A0; Error: Could not find file "<span style="color:white">${file}.html</span>".
-      </div>
-    `;
+      </div>`
+   ;
     return;
   }
 
   console.log(`Loading file ${file}.html`);
 
-  content.innerHTML = files[file];
+  content.innerHTML = `
+    <iframe id="f" src=${files[file]} allowfullscreen></iframe>
+  `
 
   fullBtn.style.display = "block";
 
@@ -593,10 +354,10 @@ function toggleFullscreen() {
 
   if (!frame) return;
 
-  if (!document.fullscreenElement) {
-    frame.requestFullscreen().catch(err => console.log(err));
-  } else {
+  if (document.fullscreenElement) {
     document.exitFullscreen();
+  } else {
+    frame.requestFullscreen().catch(err => console.log(err));
   }
 }
 
