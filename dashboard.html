@@ -1,1 +1,74 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Dashboard</title><style>body{background:#1e001e;color:white;font-family:Arial,sans-serif;text-align:center;padding-top:80px;}h1{font-size:48px;margin-bottom:20px;}#searchBox{width:500px;padding:12px;background:#f0f;color:#808;font-size:18px;border-radius:8px;border:none;outline:none;}#searchBox::placeholder{color:#808;}#searchButton{padding:12px20px;background:#f0f;color:#808;font-size:18px;margin-left:10px;border-radius:8px;border:none;cursor:pointer;}.links{margin-top:40px;}.links a{display:inline-block;margin:10px;padding:15px25px;background:#303;color:white;text-decoration:none;border-radius:8px;font-size:20px;}.links a:hover{background:#505;}</style><script>function search(){const q=document.getElementById("searchBox").value;if(q.trim().length>0){window.location.href="https://www.bing.com/search?q="+encodeURIComponent(q);}}</script></head><body><h1>LP Internet Browser</h1><input id="searchBox" type="text" placeholder="Search the web…"><button id="searchButton" onclick="search()">Search</button><div class="links"><a href="https://www.youtube.com">YouTube</a><a href="https://www.bing.com">Bing</a><a href="https://github.com">GitHub</a></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>LPIE</title>
+<style>
+    body {
+        background: #1e1e1e;
+        color: white;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding-top: 80px;
+    }
+    h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    #searchBox {
+        width: 500px;
+        padding: 12px;
+        font-size: 18px;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+    }
+    #searchButton {
+        padding: 12px 20px;
+        font-size: 18px;
+        margin-left: 10px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+    }
+    .links {
+        margin-top: 40px;
+    }
+    .links a {
+        display: inline-block;
+        margin: 10px;
+        padding: 15px 25px;
+        background: #333;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 20px;
+    }
+    .links a:hover {
+        background: #555;
+    }
+</style>
+<script>
+function search() {
+    const q = document.getElementById("searchBox").value;
+    if (q.trim().length > 0) {
+        window.location.href = "https://www.google.com/search?q=" + encodeURIComponent(q);
+    }
+}
+</script>
+</head>
+<body>
+
+<h1>LP Internet Explorer</h1>
+
+<input id="searchBox" type="text" placeholder="Search the web…">
+<button id="searchButton" onclick="search()">Search</button>
+
+<div class="links">
+    <a href="https://www.youtube.com">YouTube</a>
+    <a href="https://www.google.com">Google</a>
+    <a href="https://github.com">GitHub</a>
+</div>
+
+</body>
+</html>
